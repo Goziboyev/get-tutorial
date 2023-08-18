@@ -1,0 +1,53 @@
+.sidebar {
+    height: 40px;
+    background: #939878;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 565px;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 9px;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+// .side {
+//     position: relative;
+//     display: block;
+//     margin: 0 auto;
+//     width: 800px;
+//     background-color: rgb(183, 121, 242);
+//     padding: 10px 20px;
+//     justify-content: space-between;
+// }
+// h2 {
+//     position: absolute;
+//     top: -20px;
+//     right: 20px;
+// }
+// button {
+//     display: none;
+//     color: white;
+//     background-color: rgb(70, 70, 165);
+//     border: none;
+//     border-radius: 5px;
+//     padding: 10px;
+//     margin: 20px auto;
+// }

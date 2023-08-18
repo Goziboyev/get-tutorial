@@ -1,0 +1,78 @@
+.footer {
+    padding-top: 65px;
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 65px;
+    }
+    &__input {
+        display: flex;
+        gap: 20px;
+    }
+    &__card {
+        ul {
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    &__join {
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #65665C;
+        max-width: 420px;
+        width: 100%;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    &__input {
+        font-size: 16px;
+        width: 200px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #E7E8E3;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 1);
+    }
+    &__btn {
+        width: 127px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #CF6F49;
+        background: #CF6F49;
+        color: #FFF;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover {
+            color: #CF6F49;
+            background-color: white;
+            transition: all 0.5s;
+        }
+    }
+    &__p2 {
+        padding-top: 20px;
+        color: #65665C;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    &__img {
+        width: 120px;
+        height: 35px;
+    }
+    &__alcard {
+        background: #F5F5F2;
+        height: 75px;
+    }
+    &__alcard1 {
+        display: flex;
+        gap: 900px;
+        margin-left: 70px;
+    }
+    &__alcard2 {
+        margin-top: 25px;
+        gap: 50px;
+    }
+}
